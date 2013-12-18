@@ -1,0 +1,64 @@
+html, body{
+
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+
+
+}
+
+h1, h2, h3, p{
+
+	color: #6699ff;
+}
+#pic{
+
+	float: left;
+
+	margin-top: 5%;
+	margin-left: 3%;
+	
+	height: 540px;
+	width : 360px;
+}
+
+
+#saying{
+
+	float: right;
+
+	margin-right: 17%;
+	margin-top: 10%;
+	
+	padding-right: 30px;
+	padding-left: 30px;
+
+	height: auto;
+	width: 300px;		
+
+	top: 300px;
+	right: 200px;
+
+	background-color: #000000;
+
+	border: solid;
+	border-color: darkgoldenrod;
+}
+
+#title{
+
+	height: auto;
+	width: 500px;
+
+	text-align: center;
+	
+
+	position: relative;
+	left: 33%;
+	border: solid;
+	border-color: darkgoldenrod;
+	
+
+	background-color: #000000;
+}
