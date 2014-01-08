@@ -16,4 +16,4 @@ app.add_url_rule("/Jo", view_func=Page1.as_view("base"), methods=["GET"])
 
 if __name__ == '__main__':
 #app.debug = True
-app.run()
+	app.run()
