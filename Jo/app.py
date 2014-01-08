@@ -14,5 +14,6 @@ class Page1(flask.views.MethodView):
 
 app.add_url_rule("/Jo", view_func=Page1.as_view("base"), methods=["GET"])
 
-app.debug = True
+if __name__ == '__main__':
+#app.debug = True
 app.run()
